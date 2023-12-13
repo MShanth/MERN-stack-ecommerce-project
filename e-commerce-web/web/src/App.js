@@ -103,6 +103,9 @@ function App() {
       {!isCartVisible && <Products result={result} />}
     </>
   );
+
+
+  
 }
 
 export default App;
