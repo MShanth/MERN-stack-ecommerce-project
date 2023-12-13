@@ -1,0 +1,153 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    
+    a {
+      text-decoration: none;
+      color: rgb(97, 97, 97);
+    }
+    
+    li {
+      list-style: none;
+    }
+    
+    .btns {
+      padding: 10px 20px;
+      margin-right: 6px;
+      background: transparent;
+      border: none;
+      border: 0.6px solid #ccc;
+      border-radius: 5px;
+      color: #323232;
+      cursor: pointer;
+    }
+
+    /* .cart-list-container {
+      display: flexbox;
+      flex-wrap: wrap-reverse;
+      margin-left: 20rem;
+      margin-top: 5rem;
+      z-index: 4;
+    }
+
+    .cart-single-list{
+      margin-top: 1.5rem;
+    }
+
+    .img-cart-single{
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
+    .img-cart-total{
+      margin-top: 2rem;
+    } */
+
+    /* CartList.css */
+
+/* Container for the entire cart */
+.cart-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-single-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.img-cart-single {
+  margin-right: 10px;
+}
+
+.cart-quantity-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.img-cart-price {
+  font-weight: bold;
+}
+
+.img-cart-total {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.cart-checkout-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.purchase-alert {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #dff0d8;
+  border: 1px solid #d0e9c6;
+  color: #3c763d;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Input and Button Styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
